@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    target: 'modules',
+    target: 'baseline-widely-available',
     sourcemap: true,
     minify: true,
     rollupOptions: {
